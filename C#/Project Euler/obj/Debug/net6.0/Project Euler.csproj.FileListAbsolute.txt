@@ -1,0 +1,5 @@
+C:\Users\adity\Documents\Coding\C#\Project Euler\obj\Debug\net6.0\Project Euler.csproj.AssemblyReference.cache
+C:\Users\adity\Documents\Coding\C#\Project Euler\obj\Debug\net6.0\Project Euler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adity\Documents\Coding\C#\Project Euler\obj\Debug\net6.0\Project Euler.AssemblyInfoInputs.cache
+C:\Users\adity\Documents\Coding\C#\Project Euler\obj\Debug\net6.0\Project Euler.AssemblyInfo.cs
+C:\Users\adity\Documents\Coding\C#\Project Euler\obj\Debug\net6.0\Project Euler.csproj.CoreCompileInputs.cache
