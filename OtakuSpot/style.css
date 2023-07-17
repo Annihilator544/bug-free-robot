@@ -1,0 +1,21 @@
+body{
+    background-image: url("images/background.png");
+    background-color: #242424;
+    
+    display: flex;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0%;
+}
+.logo
+{
+   display: flex;
+    justify-content: center;
+    flex:1;
+    align-items: center;
+    margin-top:auto;
+    margin-bottom:auto;
+}
