@@ -1,0 +1,16 @@
+.number1 {
+    background-color: rgb(231, 96, 96);
+}
+#number2{
+    color:blue;
+    font-size: 32px;
+
+}
+.number2{
+    font-size: 24px;
+}
+#number1{
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 32px;
+}

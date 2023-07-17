@@ -1,0 +1,85 @@
+body{
+    margin:0;
+    display: flex;
+    font-family: myfont;
+}
+.imgs{
+    width: auto;
+    height:100vh;
+    margin:0;
+    position: relative;
+    
+}
+h1{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    opacity: 0.6;
+    color: white;
+    top: 10rem;
+    font-size: 100px;
+    text-align: center;
+}
+.container{
+    display: flex;
+}
+@font-face{
+    font-family: myfont;
+    src:url("./Norse-Bold.otf");
+}
+p{
+    font-size: 32px;
+    font-family: myfont;
+    text-align: left;
+}
+.Intro{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.Form{
+    display: flex;
+    flex-direction: column;
+    padding :64px;
+}
+.Intro,.Forma,.Extro{
+    
+    
+}
+.Forma{
+    display: flex;
+    flex-direction: column;
+}
+.inputs{
+    display: flex;
+    gap :16px;
+    padding: 20px;
+    flex-direction: column;
+    
+}
+.testing{
+    
+}
+.empty{
+    display: flex;
+    flex-direction: row;
+    padding: 32px;
+    gap:16px;
+    justify-content: left;
+}
+input{
+    width:100%;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+input:focus {
+    box-shadow: 2px 2px #7B7A72;
+    border: 2px solid rgb(90, 135, 218);
+      outline: none; 
+  }
+  input:invalid {
+    border-color:solid  red;
+  }

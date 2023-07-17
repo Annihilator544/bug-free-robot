@@ -1,0 +1,145 @@
+.container1{
+    background-color: #1F2937;
+    color: beige;
+    display: flex;
+    flex-direction: column;
+    padding:0px 16px 64px 16px;
+}
+.header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.font1{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.font2{
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 8px;
+}
+.font3{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 8px;
+}
+.font4{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+ul{
+    display:flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 8px;
+    gap: 16px;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.remaining1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.text1{
+    width:350px;
+}
+img{
+    width:500px;
+}
+button{
+    background-color: #3882f6;
+    color:white;
+    padding:8px 32px;
+    border-radius: 12px;
+}
+body{
+    margin: 0;
+}
+.box {
+    background: white;
+    font-weight: bold;
+    text-align: center;
+    border: 3px solid dodgerblue;;
+    width: 100px;
+    height: 100px;
+    flex-direction: column;
+    flex-direction: row;
+    border-radius: 12px;
+  }
+  .container2{
+      display: flex;
+      flex-direction: column;
+        align-items: center;
+        padding-bottom: 54px;
+        
+  }
+  .boxes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 16px;
+        gap: 32px;
+  }
+  .boxesntxt{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    font-size: 12px;
+    padding:0px;
+    gap:16px;
+  }
+  .container3{
+        display: flex;
+        flex-direction: column;
+        background-color: #e5e7eb;
+        padding-bottom: 54px;
+        justify-content: center;
+        padding-left: 250px;
+        padding-right: 250px;
+        padding-top: 32px;
+  }
+  .font6{
+    text-align: end;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .font5{
+    font-size: 36px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: #1f2937;
+  }
+  .container4{
+    display: flex;
+    flex-direction: column;
+    padding: 64px 108px;
+    justify-content: center;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:dodgerblue;
+    color: #f9faf8;
+    padding: 16px;
+    padding: 54px 108px;
+  }
+  .font7{
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .button2{
+    border-color: white;
+  }
+  .conatiner5{
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+padding: 32px 108px;
+  }
