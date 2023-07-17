@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="icon" type="image/png" href="logo.png" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onclick="typeWriter()">
+    <script src="script.js"></script>
+    Tic Tac Toe
+    <div class="table">
+        <div class="row">
+            <div id="1" class="cell" style="border-bottom: 3px solid white; border-right:3px solid white" onclick="cellClick(this)"></div>
+            <div id="4" class="cell" style="border-bottom: 3px solid white; border-right:3px solid white" onclick="cellClick(this)"></div>
+            <div id="7" class="cell" style=" border-right:3px solid white" onclick="cellClick(this)"></div>
+        </div>
+        <div class="row">
+            <div id="2" class="cell" style="border-bottom: 3px solid white; border-right:3px solid white" onclick="cellClick(this)"></div>
+            <div id="5" class="cell" style="border-bottom: 3px solid white; border-right:3px solid white" onclick="cellClick(this)"></div>
+            <div id="8" class="cell" style=" border-right:3px solid white" onclick="cellClick(this)"></div>
+        </div>
+        <div class="row">
+            <div id="3" class="cell" style="border-bottom: 3px solid white;" onclick="cellClick(this)"></div>
+            <div id="6" class="cell" style="border-bottom: 3px solid white;" onclick="cellClick(this)"></div>
+            <div id="9" class="cell"  onclick="cellClick(this)"></div>
+        </div>
+    </div>
+    <p class="p" style="font-size: 32px;">Try to Win !!!!</p>
+    <button onclick="window.location.reload()"> Wanna Try Again ?</button>
+        
+</body>
+</html>

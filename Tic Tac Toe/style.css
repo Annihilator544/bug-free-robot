@@ -1,0 +1,59 @@
+body{
+font-family: "aditya";
+background-color: black;
+color: white;
+font-size: 108px;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 64px;
+height: 100vh;
+}
+.table{
+    display: grid ;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    
+}
+button{
+    background-color: red;
+    outline:none;
+    border:none;
+    color: white;
+    font-family: "aditya2";
+    padding:8px;
+    border-radius: 8px;
+    font-size: large;
+    cursor: pointer;
+    &:active{
+        transform: scale(0.9);
+    }
+}
+.cell{
+    font-size: 84px;
+    text-align: center;
+    color: white;
+    height: 100px;
+    display: grid;
+    background-color: black;
+    align-items: center;
+    justify-items: center;
+}
+.footer{
+    font-family: "aditya3";
+    font-size: 16px;
+    color: white;
+}
+@font-face{
+    font-family: "aditya";
+    src: url("Moon\ Flower.ttf")
+}
+@font-face{
+    font-family: "aditya2";
+    src: url("04B_30__.TTF")
+}
+@font-face{
+    font-family: "aditya3";
+    src: url("LEMONMILK-Regular.otf")
+}

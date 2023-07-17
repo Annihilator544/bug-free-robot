@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: font;
+    gap:32px;
+    align-items: center;
+}
+.font{
+    font-size:64px;
+    text-align: center;
+}
+button{
+    background-color: black;
+    outline: none;
+    border: none;
+    color:white;
+    display: flex;
+    font-size: 24px;
+    font-family: font;
+    margin: 0 ;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+        cursor: pointer;
+    }
+    &:active{
+        transform: scale(0.9);
+    }
+}
+button svg{
+    height: 64px;
+    width: 64px;
+}
+@font-face {
+    font-family: 'font';
+    src: url("04B_30__.TTF");
+}
+.form-popup {
+    display: none;
+    position: fixed;
+  }
+.form-container{
+    background: #000;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.form-container input{
+    background: #000;
+    border: none;
+    color: white;
+    outline: none;
+    font-size: 24px;
+    padding:8px;
+    &:focus{
+        border-bottom: 2px solid white;
+    }
+}
+.addBook{
+    display: flex;
+    flex-direction: column;
+}
+.books{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+}
+  
+  /* Full-width input fields */
+  

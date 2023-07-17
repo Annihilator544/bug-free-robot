@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <div class="font">
+        Library
+    </div>
+    <div class="books">
+
+    </div>
+    <div class="addBook" >
+        <div class="form-popup" id="myForm">
+            <form class="form-container" name="myForm" id="myForm1" onsubmit="Submit()" >
+              <input type="text" placeholder="Title" id ="Title" name="Title" required>
+                
+              <input type="text" placeholder="Author" id ="Author" name="Author" required>
+            
+                <input type="number" placeholder="Pages" id ="Pages" name="Pages" required>
+              
+                <button type="button" onclick="Submit(); closeForm(); myFunction();" class="btn">Add</button>
+              <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+          </div>
+        <button onclick="openForm()">
+            <svg fill ="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>plus</title><path d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" /></svg>
+            Add Book
+        </button>
+    </div>
+</body>
+</html>
